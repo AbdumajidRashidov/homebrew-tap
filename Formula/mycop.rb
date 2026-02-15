@@ -1,26 +1,26 @@
 class Mycop < Formula
   desc "AI Code Security Scanner — detect vulnerabilities in AI-generated code"
   homepage "https://github.com/AbdumajidRashidov/mycop"
-  version "0.3.1"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.3.1/mycop-aarch64-apple-darwin.tar.gz"
-      sha256 "2ebd0afc21251764174428f10df2709b9f4cb3adf0424e0a801a4cf29caf7d52"
+      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.4.0/mycop-aarch64-apple-darwin.tar.gz"
+      sha256 "740a3bf9e888d46baa01ccb313a536aa190b0a9f71c793bd44f71f32256592d3"
     else
-      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.3.1/mycop-x86_64-apple-darwin.tar.gz"
-      sha256 "393d8ebec70ea58a5621a5163188a7603e8db255a6d5263abf5ae25a93acdac6"
+      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.4.0/mycop-x86_64-apple-darwin.tar.gz"
+      sha256 "6d038a0b33d36ce16d75045a81fd5b9e06b7a46c84f22a62e89ee3ad13144808"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.3.1/mycop-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d175b1b29fe3f1ae25357ed7fd4b47c7268226f99ba53920589a0f54b50ee5cd"
+      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.4.0/mycop-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e6c96404dc0e3694c23b2813d3617485d278486e3141f9144c0f16217fe8a1fc"
     else
-      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.3.1/mycop-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "89303f4040eaba3b79c77e231ce9c024d8dc93d1b08c56b38ae52e1cd6289170"
+      url "https://github.com/AbdumajidRashidov/mycop/releases/download/v0.4.0/mycop-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8af24f6ba6c32dc1010dc8fe89558605e54fd6af3aab7d781b6346334a8f501e"
     end
   end
 
